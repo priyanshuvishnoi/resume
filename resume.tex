@@ -1,0 +1,145 @@
+%-------------------------
+% Resume in Latex
+% Author : Priyanshu Vishnoi
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Priyanshu Vishnoi} \\ \vspace{1pt}
+    \small 7500237607 $|$ \href{mailto:pv990@outlook.com}{\underline{pv990@outlook.com}} $|$ 
+    \href{https://www.linkedin.com/in/priyanshu-vishnoi-53b816169}{\underline{linkedin.com}} $|$
+    \href{https://github.com/priyanshuvishnoi}{\underline{github.com}}
+\end{center}
+
+Full Stack Developer with 5 years of experience building scalable web applications. Expert in \textbf{Java (Spring Boot)} and \textbf{Angular} ecosystems, with foundational experience in React. Proven track record in \textbf{event-driven microservices}, CI/CD automation with \textbf{Jenkins}, and container orchestration using \textbf{Kubernetes} and \textbf{OpenShift}.
+
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Kotlin, JavaScript, TypeScript, SQL} \\
+     \textbf{Frameworks}{: Spring Boot, Angular, RxJS} \\
+     \textbf{Cloud \& DevOps}{: Jenkins, SonarQube, Kubernetes, OpenShift, Docker, AWS} \\
+     \textbf{Databases \& Tools}{: MongoDB, PostgreSQL, Apache Kafka, D3.js, Redis, Git, JPA, JasperReports} \\
+    }}
+ \end{itemize}
+
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Software Development Senior Analyst}{Nov 2024 -- Present}
+      {Accenture}{Mumbai, MH}
+      \resumeItemListStart
+        \resumeItem{Built an \textbf{event-driven microservices architecture} using \textbf{Spring Boot} and \textbf{Apache Kafka} to automate retirement plan migrations for a major US financial client.}
+        \resumeItem{Designed an \textbf{orchestration service} to manage asynchronous workflows, dynamically processing account data and business logic for \textbf{thousands of users}.}
+        \resumeItem{Managed \textbf{distributed transactions} to securely migrate participant funds, active loans, and contracts between plans.}
+        \resumeItem{Created a reporting microservice to automatically generate Excel (.xlsx) audit reports, processing \textbf{100,000+ records} per migration.}
+        \resumeItem{Orchestrated containerized deployments using \textbf{Kubernetes} and \textbf{OpenShift}, and managed \textbf{Jenkins CI/CD pipelines} with \textbf{SonarQube} to enforce code quality.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Systems Engineer}{Oct 2021 -- Nov 2024}
+      {Tata Consultancy Services}{New Delhi, DL}
+      \resumeItemListStart
+        \resumeItem{Built interactive maps and complex data visualizations using \textbf{D3.js} to analyze geographical datasets with \textbf{10,000+ data points}.}
+        \resumeItem{Led the end-to-end development of \textbf{4 core microservices} for a complex enterprise application.}
+        \resumeItem{Developed advanced UI features in \textbf{Angular}, including virtual scrolling, language translation, and complex reactive forms.}
+        \resumeItem{Implemented \textbf{Web Workers} for CPU-intensive background tasks like CSV generation, maintaining \textbf{100\% UI responsiveness}.}
+        \resumeItem{Improved system performance using \textbf{Multithreading} to process large datasets in parallel, reducing page load times by \textbf{50\%}.}
+        \resumeItem{Generated complex financial reports using \textbf{JasperReports} and built custom identity systems using \textbf{PostgreSQL} sequences.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Frontend Web Developer Intern}{June 2020 -- Aug 2020}
+      {AVILAKSH E-SERVICE LLP}{New Delhi, DL}
+      \resumeItemListStart
+        \resumeItem{Built a responsive admin dashboard using \textbf{React} and \textbf{Bootstrap} to improve internal data management efficiency.}
+        \resumeItem{Integrated \textbf{RESTful APIs} using Axios to seamlessly manage product inventory and user order data.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{Containerized Full-Stack To-Do Application} $|$ \emph{Angular, Spring Boot, K8s, Jenkins}}{}
+      \resumeItemListStart
+        \resumeItem{Architected a full-stack application utilizing an \textbf{Angular} frontend, \textbf{Spring Boot} backend, and \textbf{MongoDB}.}
+        \resumeItem{Configured a \textbf{Jenkins CI/CD pipeline} with \textbf{SonarQube} for automated testing and deployed to a local \textbf{Kubernetes} cluster (Minikube).}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Inderprastha Engineering College}{Ghaziabad, UP}
+      {Bachelor of Technology in Computer Science \& Engineering}{Aug 2017 -- Aug 2021}
+  \resumeSubHeadingListEnd
+
+\end{document}
